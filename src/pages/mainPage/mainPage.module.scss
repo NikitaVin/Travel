@@ -1,0 +1,13 @@
+.mainPage {
+   display: flex;
+   justify-content: space-between;
+   max-width: 100%;
+   width: 1300px;
+
+   @media (max-width: 1230px) {
+      flex-direction: column-reverse;
+      align-items: center;
+      
+   }
+   
+}
